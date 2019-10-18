@@ -27,7 +27,7 @@ while (i<=(n//2)):
 	A[i]=(int(A_le[i-1]))
 	xora=xora^A[i]
 	A1[xora]=A1[xora]+1
-	B1[i]=xora
+	B1[i]^=xora
 	i=i+1
 	#	A[i+1]=int(A_le[i])
 
